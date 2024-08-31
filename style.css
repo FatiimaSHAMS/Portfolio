@@ -434,15 +434,16 @@ footer {
     justify-content: center;
   }
 
-  .social-media-icons i {
+  .social-media-icons a {
     cursor: pointer;
+    color: white;
 
     &:hover {
       transform: scale(1.1);
     }
   }
 
-  .social-media-icons i:not(:first-child){
+  .social-media-icons a:not(:first-child){
     margin-left: 10px;
   }
 
